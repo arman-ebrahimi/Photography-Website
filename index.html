@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>photography</title>
+	<style type="text/css">
+		body{
+			background-color: rgba(0,128,128,0.6);
+			text-transform: capitalize;
+			margin-top: 0;
+		}
+		.container{
+			width: 70%;
+			margin: auto;
+			box-shadow: 0 0 50px 30px teal;
+		}
+		.header{
+			background: url("7560b48482bfae5c-02b97ffc647f-3822363654.jpg") center center/cover no-repeat;
+			padding: 235px 40px;
+			color: #fff;
+		}
+		.text-header{
+			display: inline-block;
+			text-align: center;
+			line-height: 1.3em;
+		}
+		.text-header a{
+			text-decoration: none;
+			color: #fff;
+			padding: 15px 40px;
+			border: 1px solid #fff;
+			border-radius: 40px;
+			transition: 0.5s;
+		}
+		.text-header h1{
+			letter-spacing: 2px;
+		}
+		.text-header a:hover{
+			background-color: #fff;
+			color: #333;
+		}
+		.work{
+			background-color: #333;
+			padding: 5px 0;
+			color: crimson;
+			text-align: center;
+		}
+		.work p{
+			display: inline-block;
+			border-right: 1px dotted crimson;	
+			border-left: 1px dotted crimson;
+			padding-right: 10px;
+			padding-left: 10px;
+			font-size: 1.3em;
+			}
+			.flex{
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.flex div{
+				width: 50%;
+				height: 300px;
+				text-align: center;
+				color: crimson;
+				font-size: 1.3em;
+				font-weight: bold;
+				padding-top: 20px;
+			}
+			.ph-one{
+				background: url("0.270967001322580170_jazzaab_ir.jpg") center center/cover no-repeat;
+			}
+			.ph-tow{
+				background: url("94-12-2jnews8170.jpg") center center/cover no-repeat;
+			}
+			.ph-three{
+				background: url("5c29cf910a706.jpg") center center/cover no-repeat;
+			}
+			.ph-four{
+				background: url("2307048_331.jpg") center center/cover no-repeat;
+			}
+			.contact{
+				text-align: center;
+				margin-bottom: 70px;
+				color: #444;
+			}
+		@media screen and (max-width: 768px){
+			.header{
+				text-align: center;
+				padding-top: 60px;
+			}
+			.text-header h1{
+				display: inline-block;
+			}
+			.flex div{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<div class="text-header">
+			<h1>ACME</h1>
+			<h1>photography</h1>
+			<p>beautiful natural photography</p><br>
+			<a href="#work">view work</a>
+		</div>
+	</div>
+	<div id="work" class="work">
+		<p>our work</p>
+	</div>
+	<div class="flex">
+		<div class="ph-one">
+			reflection
+		</div>
+		<div class="ph-tow">
+			convex
+		</div>
+		<div class="ph-three">
+			snowy
+		</div>
+		<div class="ph-four">
+			day
+		</div>
+	</div>
+</div>
+<br><br>
+<div class="contact">
+	<h1>get in touch</h1>
+	<p>Email or call us to set up a consult</p>
+	<p>Email: <b>contact@acmephotos.test</b></p>
+	<p>Phone: <b>(617) 555-5555</b></p>
+</div>
+</body>
+</html>
